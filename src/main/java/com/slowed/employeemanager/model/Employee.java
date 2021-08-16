@@ -9,25 +9,14 @@ public class Employee implements Serializable {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  @Column(name = "ID", nullable = false, updatable = false)
+  @Column(nullable = false, updatable = false)
   private Long id;
-
-  @Column(name = "NAME")
   private String name;
-
-  @Column(name = "EMAIL")
   private String email;
-
-  @Column(name = "JOB_TITLE")
   private String jobTitle;
-
-  @Column(name = "PHONE")
   private String phone;
-
-  @Column(name = "IMAGE_URL")
   private String imageUrl;
-
-  @Column(name = "EMPLOYEE_CODE", nullable = false, updatable = false)
+  @Column(nullable = false, updatable = false)
   private String employeeCode;
 
   public Employee() {
@@ -100,15 +89,15 @@ public class Employee implements Serializable {
 
   @Override
   public String toString() {
-    return
-    "Employee{" +
-      "id=" + id +
-      ", name='" + name + '\'' +
-      ", email='" + email + '\'' +
-      ", jobTitle='" + jobTitle + '\'' +
-      ", phone='" + phone + '\'' +
-      ", imageUrl='" + imageUrl + '\'' +
-    '}';
+    return "Employee{" +
+        "id=" + id +
+        ", name='" + name + '\'' +
+        ", email='" + email + '\'' +
+        ", jobTitle='" + jobTitle + '\'' +
+        ", phone='" + phone + '\'' +
+        ", imageUrl='" + imageUrl + '\'' +
+        ", employeeCode='" + employeeCode + '\'' +
+        '}';
   }
 
 }
