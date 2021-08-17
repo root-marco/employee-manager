@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "EMPLOYEE")
-public class Employee implements Serializable {
+public class EmployeeModel implements Serializable {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
@@ -19,10 +19,10 @@ public class Employee implements Serializable {
   @Column(nullable = false, updatable = false)
   private String employeeCode;
 
-  public Employee() {
+  public EmployeeModel() {
   }
 
-  public Employee(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
+  public EmployeeModel(String name, String email, String jobTitle, String phone, String imageUrl, String employeeCode) {
     this.name = name;
     this.email = email;
     this.jobTitle = jobTitle;
