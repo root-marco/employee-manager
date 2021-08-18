@@ -4,10 +4,7 @@ import com.slowed.employeemanager.model.EmployeeModel;
 import com.slowed.employeemanager.service.EmployeeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -31,6 +28,12 @@ public class EmployeeResource {
   public ResponseEntity<EmployeeModel> getEmployeeById (@PathVariable("id") Long id) {
     EmployeeModel employee = employeeService.findEmployeeById(id);
     return new ResponseEntity<>(employee, HttpStatus.OK);
+  }
+
+  @PostMapping("add")
+  public ResponseEntity<EmployeeModel> addEmployee(@RequestBody EmployeeModel employee) {
+    EmployeeModel newEmployee = employeeService.addEmployee(employee);
+    return new ResponseEntity<>(newEmployee, HttpStatus.CREATED);
   }
 
 }
