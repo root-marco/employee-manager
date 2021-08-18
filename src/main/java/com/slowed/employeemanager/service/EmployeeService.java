@@ -36,9 +36,8 @@ public class EmployeeService {
 
   public EmployeeModel findEmployeeById(Long id) {
     return employeeRepository.findEmployeeById(id)
-        .orElseThrow(() -> new UserNotFoundException("User by id " + id + " was not found"));
+      .orElseThrow(() -> new UserNotFoundException("user not found"));
   }
-
 
   public void deleteEmployee(Long id) {
     employeeRepository.deleteEmployeeById(id);
