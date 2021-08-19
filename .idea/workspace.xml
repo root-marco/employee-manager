@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d30cff01-35a5-43a5-ad76-a18c2a1d3545" name="Changes" comment="route(DELETE) to delete an employee by id">
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/slowed/employeemanager/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/slowed/employeemanager/Application.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.5.3/spring-data-jpa-2.5.3.jar!/org/springframework/data/jpa/repository/JpaRepository.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1woNJmy69BhRF2MuCLrCPImCutI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.5.3/spring-data-jpa-2.5.3.jar" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.slowed.employeemanager.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeemanagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="employeemanager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.slowed.employeemanager.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d30cff01-35a5-43a5-ad76-a18c2a1d3545" name="Changes" comment="" />
+      <created>1629120913329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629120913329</updated>
+      <workItem from="1629120915828" duration="2165000" />
+      <workItem from="1629128120412" duration="3132000" />
+      <workItem from="1629205634275" duration="295000" />
+      <workItem from="1629205951847" duration="3829000" />
+      <workItem from="1629224312381" duration="4616000" />
+      <workItem from="1629231587507" duration="839000" />
+      <workItem from="1629310045890" duration="8538000" />
+      <workItem from="1629379592356" duration="2084000" />
+      <workItem from="1629381690691" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="maven wrapper files">
+      <created>1629122342907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629122342908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gitignore file">
+      <created>1629122363281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629122363281</updated>
+    </task>
+    <task id="LOCAL-00003" summary="columns annotations removed">
+      <created>1629130321395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629130321396</updated>
+    </task>
+    <task id="LOCAL-00004" summary="app file renamed">
+      <created>1629207895090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629207895091</updated>
+    </task>
+    <task id="LOCAL-00005" summary="employee repository initial skeleton">
+      <created>1629207924823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629207924823</updated>
+    </task>
+    <task id="LOCAL-00006" summary="employee model done">
+      <created>1629207936317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629207936317</updated>
+    </task>
+    <task id="LOCAL-00007" summary="app test file renamed">
+      <created>1629207951502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629207951502</updated>
+    </task>
+    <task id="LOCAL-00008" summary="employee service initial skeleton">
+      <created>1629207998753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629207998753</updated>
+    </task>
+    <task id="LOCAL-00009" summary="postgresql and hibernate configs">
+      <created>1629208017080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629208017080</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update an employee">
+      <created>1629209926307</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629209926307</updated>
+    </task>
+    <task id="LOCAL-00011" summary="delete an employee by id">
+      <created>1629210051840</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629210051840</updated>
+    </task>
+    <task id="LOCAL-00012" summary="employee repository findEmployeeById implemented">
+      <created>1629229754547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629229754547</updated>
+    </task>
+    <task id="LOCAL-00013" summary="employee service findEmployeeById implemented">
+      <created>1629229786407</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629229786407</updated>
+    </task>
+    <task id="LOCAL-00014" summary="user not found exception created">
+      <created>1629229815931</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629229815931</updated>
+    </task>
+    <task id="LOCAL-00015" summary="user not found message updated">
+      <created>1629315949955</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629315949955</updated>
+    </task>
+    <task id="LOCAL-00016" summary="employee resource constructor and getAllEmployees route(GET)">
+      <created>1629316767621</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1629316767621</updated>
+    </task>
+    <task id="LOCAL-00017" summary="route(GET) to get an employee by id path variable">
+      <created>1629316802162</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1629316802162</updated>
+    </task>
+    <task id="LOCAL-00018" summary="route(POST) to create an employee">
+      <created>1629316962139</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1629316962139</updated>
+    </task>
+    <task id="LOCAL-00019" summary="route(PUT) to update an employee">
+      <created>1629317088926</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1629317088926</updated>
+    </task>
+    <task id="LOCAL-00020" summary="route(DELETE) to delete an employee by id">
+      <created>1629317179798</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1629317179798</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maven wrapper files" />
+    <MESSAGE value="gitignore file" />
+    <MESSAGE value="columns annotations removed" />
+    <MESSAGE value="app file renamed" />
+    <MESSAGE value="employee repository initial skeleton" />
+    <MESSAGE value="employee model done" />
+    <MESSAGE value="app test file renamed" />
+    <MESSAGE value="employee service initial skeleton" />
+    <MESSAGE value="postgresql and hibernate configs" />
+    <MESSAGE value="update an employee" />
+    <MESSAGE value="delete an employee by id" />
+    <MESSAGE value="employee repository findEmployeeById implemented" />
+    <MESSAGE value="employee service findEmployeeById implemented" />
+    <MESSAGE value="user not found exception created" />
+    <MESSAGE value="user not found message updated" />
+    <MESSAGE value="employee resource constructor and getAllEmployees route(GET)" />
+    <MESSAGE value="route(GET) to get an employee by id path variable" />
+    <MESSAGE value="route(POST) to create an employee" />
+    <MESSAGE value="route(PUT) to update an employee" />
+    <MESSAGE value="route(DELETE) to delete an employee by id" />
+    <option name="LAST_COMMIT_MESSAGE" value="route(DELETE) to delete an employee by id" />
+  </component>
+</project>
