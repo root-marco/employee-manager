@@ -1,6 +1,9 @@
 {
   "name": "employeemanagerapp",
   "version": "0.0.1",
+  "engines": {
+    "node": "16.7.0"
+  },
   "scripts": {
     "ng": "ng",
     "heroku-postbuild": "ng build --prod && npm install -g http-server-spa",
