@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiBaseUrl: 'http://localhost:8080'
+  baseUrl: 'https://employee-manager-44.herokuapp.com/'
 };
 
 /*

@@ -7,24 +7,24 @@ import { environment } from 'src/environments/environment';
 @Injectable({ providedIn: 'root' })
 export class EmployeeService {
 
-  private apiServerUrl = environment.apiBaseUrl;
+  private baseUrl = environment.baseUrl;
 
   constructor(private http: HttpClient) { }
 
   public getEmployees(): Observable<Employee[]> {
-    return this.http.get<Employee[]>(`${this.apiServerUrl}/employee/all`);
+    return this.http.get<Employee[]>(`${this.baseUrl}/employee/all`);
   }
 
   public addEmployee(employee: Employee): Observable<Employee> {
-    return this.http.post<Employee>(`${this.apiServerUrl}/employee/add`, employee);
+    return this.http.post<Employee>(`${this.baseUrl}/employee/add`, employee);
   }
 
   public updateEmployee(employee: Employee): Observable<Employee> {
-    return this.http.put<Employee>(`${this.apiServerUrl}/employee/update`, employee);
+    return this.http.put<Employee>(`${this.baseUrl}/employee/update`, employee);
   }
 
   public deleteEmployee(employeeId: number): Observable<void> {
-    return this.http.delete<void>(`${this.apiServerUrl}/employee/delete/${employeeId}`);
+    return this.http.delete<void>(`${this.baseUrl}/employee/delete/${employeeId}`);
   }
 
 }
