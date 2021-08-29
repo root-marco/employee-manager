@@ -6,9 +6,9 @@
   },
   "scripts": {
     "ng": "ng",
-    "heroku-postbuild": "ng build --prod && npm install -g http-server-spa",
+    "heroku-postbuild": "",
     "start": "http-server-spa dist/employeemanagerapp index.html $PORT",
-    "build": "ng build",
+    "build": "ng build --prod && npm install -g http-server-spa",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
