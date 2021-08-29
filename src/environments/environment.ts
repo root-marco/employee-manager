@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://employee-manager-44.herokuapp.com/'
+  baseUrl: 'employee-manager-44.herokuapp.com'
 };
 
 /*

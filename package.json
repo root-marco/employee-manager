@@ -2,7 +2,7 @@
   "name": "employeemanagerapp",
   "version": "0.0.1",
   "engines": {
-    "node": "16.7.0"
+    "node": "14.x"
   },
   "scripts": {
     "ng": "ng",
